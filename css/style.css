@@ -9,13 +9,27 @@ html {
     overflow-x: hidden;
 }
 
-.nav-section{
+.nav-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#animated-text{
+#animated-text {
     color: white;
     animation: blink 1s infinite;
+}
+
+.navbar {
+    padding: 0rem;
+    margin-bottom: 2rem;
+    background-color: blue;
+}
+
+.first-nav{
+    background-color: blue;
+}
+
+.discount{
+    color: red;
 }
